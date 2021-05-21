@@ -1,4 +1,4 @@
-package fill.jma.lesson2;
+package fill.jma.task7;
 
 public class CircleRectangle {
     public void circlRectangle() {

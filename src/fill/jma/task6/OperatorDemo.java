@@ -1,4 +1,4 @@
-package fill.jma.lesson1;
+package fill.jma.task6;
 
 import java.io.BufferedReader;
 import java.io.IOException;

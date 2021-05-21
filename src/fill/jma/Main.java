@@ -1,7 +1,7 @@
 package fill.jma;
 
-import fill.jma.lesson1.OperatorDemo;
-import fill.jma.lesson2.CircleRectangle;
+import fill.jma.task6.OperatorDemo;
+import fill.jma.task7.CircleRectangle;
 
 import java.io.IOException;
 
@@ -12,5 +12,6 @@ public class Main {
         operatorDemo.printSumm();
         CircleRectangle circleRectangle = new CircleRectangle();
         circleRectangle.circlRectangle();
+
     }
 }
