@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class OperatorDemo {
     public void printSumm() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Write you number ");
+        System.out.println("Write you number  ");
         System.out.print("a=");
         int a = Integer.parseInt(reader.readLine());
         System.out.print("b=");
