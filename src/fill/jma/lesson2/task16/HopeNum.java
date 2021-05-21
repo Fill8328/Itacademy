@@ -1,4 +1,4 @@
-package fill.jma.task16;
+package fill.jma.lesson2.task16;
 
 public class HopeNum {
     public void hope() {

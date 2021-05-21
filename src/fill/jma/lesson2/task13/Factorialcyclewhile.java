@@ -1,4 +1,4 @@
-package fill.jma.task13;
+package fill.jma.lesson2.task13;
 
 public class Factorialcyclewhile {
     public void CycleWhile(){

@@ -1,4 +1,4 @@
-package fill.jma.task12;
+package fill.jma.lesson2.task12;
 
 public class Factorial {
     public void factorial() {

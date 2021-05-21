@@ -1,6 +1,6 @@
 package fill.jma;
 
-import fill.jma.task16.HopeNum;
+import fill.jma.lesson2.task17.NumberFormat;
 
 import java.io.IOException;
 
@@ -16,9 +16,11 @@ public class Main {
         Factorialcyclewhile factorialcyclewhile = new Factorialcyclewhile();
         factorialcyclewhile.CycleWhile();
         SummNumber sumNumber = new SummNumber();
-        sumNumber.sumNumber();*/
+        sumNumber.sumNumber();
         HopeNum hopeNum = new HopeNum();
-        hopeNum.hope();
+        hopeNum.hope();*/
+        NumberFormat numberFormat = new NumberFormat();
+        numberFormat.Format();
 
     }
 }
