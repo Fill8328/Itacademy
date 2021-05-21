@@ -4,8 +4,9 @@ public class Factorial {
     public void factorial() {
         int sum = 1;
         int i = 1;
-        for (; i <= 10; i++) {
+        while (i<=10){
             sum = sum * i;
+            i++;
         }
         System.out.println(sum);
     }
