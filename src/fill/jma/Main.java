@@ -2,6 +2,7 @@ package fill.jma;
 
 import fill.jma.lesson2.task13.Factorialcyclewhile;
 import fill.jma.lesson2.task17.NumberFormat;
+import fill.jma.lesson2.task17easy.NumberFormatEasy;
 
 import java.io.IOException;
 
@@ -13,15 +14,17 @@ public class Main {
         CircleRectangle circleRectangle = new CircleRectangle();
         circleRectangle.circlRectangle();
         Factorial factorial = new Factorial();
-        factorial.factorial();*/
+        factorial.factorial();
         Factorialcyclewhile factorialcyclewhile = new Factorialcyclewhile();
         factorialcyclewhile.CycleWhile();
-       /* SummNumber sumNumber = new SummNumber();
+        SummNumber sumNumber = new SummNumber();
         sumNumber.sumNumber();
         HopeNum hopeNum = new HopeNum();
-        hopeNum.hope();*/
-       /* NumberFormat numberFormat = new NumberFormat();
-        numberFormat.Format(); */
+        hopeNum.hope();
+        NumberFormat numberFormat = new NumberFormat();
+        numberFormat.Format();*/
+        NumberFormatEasy numberFormatEasy = new NumberFormatEasy();
+        numberFormatEasy.FormatEasy();
 
     }
 }
