@@ -1,10 +1,13 @@
 package fill.jma.lesson2.task17;
 
 import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class NumberFormat {
-    public void Format() {
-        int number = 14342493;
+    public void Format() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int number = Integer.parseInt(String.valueOf(reader.readLine()));
         int rank = 0;
         int remnant = 0;
         int length = (int) (Math.log10(number) + 1);
