@@ -2,7 +2,7 @@ package fill.jma.lesson2.task17;
 
 public class NumberFormat {
     public void Format() {
-        int number = 1011200133;
+        int number = 1111200133;
         int rank = 0;
         int remnant = 0;
         int length = (int) (Math.log10(number) + 1);
