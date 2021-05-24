@@ -1,5 +1,7 @@
 package fill.jma;
 
+import fill.jma.lesson1.task4.SummNum;
+import fill.jma.lesson1.task5.Time;
 import fill.jma.lesson1.task8.YouBalanceRub;
 import fill.jma.lesson2.task13.Factorialcyclewhile;
 import fill.jma.lesson2.task17.NumberFormat;
@@ -10,7 +12,11 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        /*OperatorDemo operatorDemo = new OperatorDemo();
+      /*  Time time = new Time();
+        time.time();
+        SummNum summNum = new SummNum();
+        summNum.summNum();
+        OperatorDemo operatorDemo = new OperatorDemo();
         operatorDemo.printSumm();
         CircleRectangle circleRectangle = new CircleRectangle();
         circleRectangle.circlRectangle();
