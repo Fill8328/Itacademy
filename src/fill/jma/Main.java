@@ -3,7 +3,11 @@ package fill.jma;
 import fill.jma.lesson1.task4.SummNum;
 import fill.jma.lesson1.task5.Time;
 import fill.jma.lesson1.task8.YouBalanceRub;
+import fill.jma.lesson1.task9.DayOfWeek;
+import fill.jma.lesson2.task12.Factorial;
 import fill.jma.lesson2.task13.Factorialcyclewhile;
+import fill.jma.lesson2.task14.SummNumber;
+import fill.jma.lesson2.task16.HopeNum;
 import fill.jma.lesson2.task17.NumberFormat;
 import fill.jma.lesson2.task17easy.NumberFormatEasy;
 
@@ -20,7 +24,11 @@ public class Main {
         operatorDemo.printSumm();
         CircleRectangle circleRectangle = new CircleRectangle();
         circleRectangle.circlRectangle();
-        Factorial factorial = new Factorial();
+        YouBalanceRub youBalanceRub = new YouBalanceRub();
+        youBalanceRub.suffixRub();*/
+        DayOfWeek dayOfWeek = new DayOfWeek();
+        dayOfWeek.dayofweek();
+       /* Factorial factorial = new Factorial();
         factorial.factorial();
         Factorialcyclewhile factorialcyclewhile = new Factorialcyclewhile();
         factorialcyclewhile.CycleWhile();
@@ -32,8 +40,7 @@ public class Main {
         numberFormat.Format();
         NumberFormatEasy numberFormatEasy = new NumberFormatEasy();
         numberFormatEasy.FormatEasy();*/
-        YouBalanceRub youBalanceRub = new YouBalanceRub();
-        youBalanceRub.suffixRub();
+
 
     }
 }
