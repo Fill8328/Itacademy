@@ -1,5 +1,6 @@
 package fill.jma;
 
+import fill.jma.lesson1.task8.YouBalanceRub;
 import fill.jma.lesson2.task13.Factorialcyclewhile;
 import fill.jma.lesson2.task17.NumberFormat;
 import fill.jma.lesson2.task17easy.NumberFormatEasy;
@@ -22,9 +23,11 @@ public class Main {
         HopeNum hopeNum = new HopeNum();
         hopeNum.hope();
         NumberFormat numberFormat = new NumberFormat();
-        numberFormat.Format();*/
+        numberFormat.Format();
         NumberFormatEasy numberFormatEasy = new NumberFormatEasy();
-        numberFormatEasy.FormatEasy();
+        numberFormatEasy.FormatEasy();*/
+        YouBalanceRub youBalanceRub = new YouBalanceRub();
+        youBalanceRub.suffixRub();
 
     }
 }
