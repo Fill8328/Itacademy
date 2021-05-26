@@ -2,21 +2,24 @@ package fill.jma;
 
 import fill.jma.lesson1.task4.SummNum;
 import fill.jma.lesson1.task5.Time;
+import fill.jma.lesson1.task6.OperatorDemo;
+import fill.jma.lesson1.task7.CircleRectangle;
 import fill.jma.lesson1.task8.YouBalanceRub;
 import fill.jma.lesson1.task9.DayOfWeek;
 import fill.jma.lesson2.task12.Factorial;
 import fill.jma.lesson2.task13.Factorialcyclewhile;
 import fill.jma.lesson2.task14.SummNumber;
+import fill.jma.lesson2.task15.PrimeNumber;
 import fill.jma.lesson2.task16.HopeNum;
 import fill.jma.lesson2.task17.NumberFormat;
-import fill.jma.lesson2.task17easy.NumberFormatEasy;
+import fill.jma.lesson2.task17.task17easy.NumberFormatEasy;
 
 import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-      /*  Time time = new Time();
+        /*Time time = new Time();
         time.time();
         SummNum summNum = new SummNum();
         summNum.summNum();
@@ -25,10 +28,10 @@ public class Main {
         CircleRectangle circleRectangle = new CircleRectangle();
         circleRectangle.circlRectangle();
         YouBalanceRub youBalanceRub = new YouBalanceRub();
-        youBalanceRub.suffixRub();*/
+        youBalanceRub.suffixRub();
         DayOfWeek dayOfWeek = new DayOfWeek();
         dayOfWeek.dayofweek();
-       /* Factorial factorial = new Factorial();
+        Factorial factorial = new Factorial();
         factorial.factorial();
         Factorialcyclewhile factorialcyclewhile = new Factorialcyclewhile();
         factorialcyclewhile.CycleWhile();
@@ -40,7 +43,7 @@ public class Main {
         numberFormat.Format();
         NumberFormatEasy numberFormatEasy = new NumberFormatEasy();
         numberFormatEasy.FormatEasy();*/
-
-
+        PrimeNumber primeNumber = new PrimeNumber();
+        primeNumber.primenumber();
     }
 }
