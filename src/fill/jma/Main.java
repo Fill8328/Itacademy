@@ -13,7 +13,10 @@ public class Main {
         }
         PrintArray.printArray(array);
         PrintArray.lastElementArray(array);
-
+        PrintArray.evenElementArray(array);
+        PrintArray.maxElementArray(array);
+        PrintArray.rePlaceArray(array);
+        PrintArray.printArrayRevers(array);
         /*Time time = new Time();
         time.time();
         SummNum summNum = new SummNum();
