@@ -1,4 +1,4 @@
-package fill.jma.lesson3;
+package fill.jma.lesson3.task18_19_20_22;
 
 public class PrintArray {
     public static void printArray(int[] array) {
