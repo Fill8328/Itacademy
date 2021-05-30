@@ -42,8 +42,8 @@ public class Main {
         NumberFormat numberFormat = new NumberFormat();
         numberFormat.Format();
         NumberFormatEasy numberFormatEasy = new NumberFormatEasy();
-        numberFormatEasy.FormatEasy();*/
+        numberFormatEasy.FormatEasy();
         PrimeNumber primeNumber = new PrimeNumber();
-        primeNumber.primenumber();
+        primeNumber.primenumber();*/
     }
 }
