@@ -1,24 +1,20 @@
 package fill.jma;
 
-import fill.jma.lesson1.task4.SummNum;
-import fill.jma.lesson1.task5.Time;
-import fill.jma.lesson1.task6.OperatorDemo;
-import fill.jma.lesson1.task7.CircleRectangle;
-import fill.jma.lesson1.task8.YouBalanceRub;
-import fill.jma.lesson1.task9.DayOfWeek;
-import fill.jma.lesson2.task12.Factorial;
-import fill.jma.lesson2.task13.Factorialcyclewhile;
-import fill.jma.lesson2.task14.SummNumber;
-import fill.jma.lesson2.task15.PrimeNumber;
-import fill.jma.lesson2.task16.HopeNum;
-import fill.jma.lesson2.task17.NumberFormat;
-import fill.jma.lesson2.task17.task17easy.NumberFormatEasy;
+import fill.jma.lesson3.PrintArray;
 
 import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        int[] array = new int[10];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = (int) (Math.random() * 10);
+        }
+        PrintArray.printArray(array);
+        PrintArray lastElementArray = new PrintArray();
+        PrintArray.lastElementArray(array);
+
         /*Time time = new Time();
         time.time();
         SummNum summNum = new SummNum();
@@ -45,5 +41,7 @@ public class Main {
         numberFormatEasy.FormatEasy();
         PrimeNumber primeNumber = new PrimeNumber();
         primeNumber.primenumber();*/
+
+
+        }
     }
-}
