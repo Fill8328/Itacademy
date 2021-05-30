@@ -12,7 +12,6 @@ public class Main {
             array[i] = (int) (Math.random() * 10);
         }
         PrintArray.printArray(array);
-        PrintArray lastElementArray = new PrintArray();
         PrintArray.lastElementArray(array);
 
         /*Time time = new Time();
