@@ -1,5 +1,6 @@
 package fill.jma;
 
+import fill.jma.lesson3.task18_19_20_22.ArrayButterfly;
 import fill.jma.lesson3.task18_19_20_22.PrintArray;
 
 import java.io.IOException;
@@ -17,6 +18,10 @@ public class Main {
         PrintArray.maxElementArray(array);
         PrintArray.rePlaceArray(array);
         PrintArray.printArrayRevers(array);
+        System.out.println();
+        System.out.println();
+        ArrayButterfly.butterfly();
+
         /*Time time = new Time();
         time.time();
         SummNum summNum = new SummNum();
