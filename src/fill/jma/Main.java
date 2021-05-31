@@ -1,6 +1,6 @@
 package fill.jma;
 
-import fill.jma.lesson3.task18_19_20_22.ArrayButterfly;
+import fill.jma.lesson3.task23.ArrayButterfly;
 import fill.jma.lesson3.task18_19_20_22.PrintArray;
 
 import java.io.IOException;

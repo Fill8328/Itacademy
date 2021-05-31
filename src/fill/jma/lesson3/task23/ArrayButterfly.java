@@ -1,4 +1,4 @@
-package fill.jma.lesson3.task18_19_20_22;
+package fill.jma.lesson3.task23;
 
 public class ArrayButterfly {
     public static void butterfly(){
