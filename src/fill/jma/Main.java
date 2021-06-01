@@ -12,15 +12,7 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 10);
         }
-        PrintArray.printArray(array);
-        PrintArray.lastElementArray(array);
-        PrintArray.evenElementArray(array);
-        PrintArray.maxElementArray(array);
-        PrintArray.rePlaceArray(array);
-        PrintArray.printArrayRevers(array);
-        System.out.println();
-        System.out.println();
-        ArrayButterfly.butterfly();
+
 
         /*Time time = new Time();
         time.time();
@@ -49,6 +41,15 @@ public class Main {
         PrimeNumber primeNumber = new PrimeNumber();
         primeNumber.primenumber();*/
 
+        PrintArray.printArray(array);
+        PrintArray.lastElementArray(array);
+        PrintArray.evenElementArray(array);
+        PrintArray.maxElementArray(array);
+        PrintArray.rePlaceArray(array);
+        PrintArray.printArrayRevers(array);
+        System.out.println();
+        System.out.println();
+        ArrayButterfly.butterfly();
 
         }
     }
