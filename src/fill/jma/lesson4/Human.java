@@ -19,7 +19,7 @@ public class Human {
          System.out.println("Invalid surname");
       }
       if (name != null){
-         this.name = name
+         this.name = name;
       }
       else {
          System.out.println("Invalid name");
@@ -27,6 +27,6 @@ public class Human {
       this.sex = sex;
    }
 
-   public Human
+   public Human(){}
 
 }
