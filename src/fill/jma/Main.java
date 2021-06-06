@@ -1,20 +1,18 @@
 package fill.jma;
 
-import fill.jma.lesson3.task23.ArrayButterfly;
-import fill.jma.lesson3.task18_19_20_22.PrintArray;
-
 import java.io.IOException;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
+//      Lesson 1-2 task 4-17
+        /*
         int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 10);
         }
 
-
-        /*Time time = new Time();
+        Time time = new Time();
         time.time();
         SummNum summNum = new SummNum();
         summNum.summNum();
@@ -40,8 +38,8 @@ public class Main {
         numberFormatEasy.FormatEasy();
         PrimeNumber primeNumber = new PrimeNumber();
         primeNumber.primenumber();*/
-
-        PrintArray.printArray(array);
+//      Lesson 3 task 18 19 20 22 23
+        /* PrintArray.printArray(array);
         PrintArray.lastElementArray(array);
         PrintArray.evenElementArray(array);
         PrintArray.maxElementArray(array);
@@ -49,7 +47,9 @@ public class Main {
         PrintArray.printArrayRevers(array);
         System.out.println();
         System.out.println();
-        ArrayButterfly.butterfly();
+        ArrayButterfly.butterfly();*/
+//      Lesson 4 create class
 
-        }
+
     }
+}
