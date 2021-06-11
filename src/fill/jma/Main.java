@@ -1,5 +1,7 @@
 package fill.jma;
 
+import fill.jma.lesson4.task26.FindComma;
+
 import java.io.IOException;
 
 public class Main {
@@ -50,6 +52,14 @@ public class Main {
         ArrayButterfly.butterfly();*/
 //      Lesson 4 create class
 
+//      Lesson 5
+       /* Pattern p = Pattern.compile(" +- +");
+        Matcher m = p.matcher("Test - string - test h-h");
+        m.find();
+        System.out.println(m);
+        */
+        FindComma findComma = new FindComma();
+        FindComma.EnterText();
 
     }
 }
