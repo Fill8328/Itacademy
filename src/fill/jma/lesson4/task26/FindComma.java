@@ -9,16 +9,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class FindComma {
-    public static void EnterText() throws IOException {
+    public static void EnterText(String text) throws IOException {
         int count = 0;
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String number = String.valueOf(reader.readLine());
-
             Pattern comma = Pattern.compile("[,.!?]");
-            Matcher matcher = comma.matcher(number);
+            Matcher matcher = comma.matcher(text);
             while (matcher.find()){
                 count++;
             }
             System.out.println("знаков препинания = " + count);
         }
     }
+

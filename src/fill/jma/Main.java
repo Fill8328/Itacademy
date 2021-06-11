@@ -1,8 +1,12 @@
 package fill.jma;
 
 import fill.jma.lesson4.task26.FindComma;
+import fill.jma.lesson4.task27.WordCounter;
+import fill.jma.lesson4.task28.LastLetter;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Main {
 
@@ -53,13 +57,15 @@ public class Main {
 //      Lesson 4 create class
 
 //      Lesson 5
-       /* Pattern p = Pattern.compile(" +- +");
-        Matcher m = p.matcher("Test - string - test h-h");
-        m.find();
-        System.out.println(m);
-        */
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String text = String.valueOf(reader.readLine());
         FindComma findComma = new FindComma();
-        FindComma.EnterText();
+        FindComma.EnterText(text);
+        WordCounter wordCounter = new WordCounter();
+        WordCounter.Delete(text);
+        LastLetter lastLetter = new LastLetter();
+        LastLetter.WordOfLastLetter(text);
+
 
     }
 }
