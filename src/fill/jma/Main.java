@@ -3,6 +3,7 @@ package fill.jma;
 import fill.jma.lesson4.task26.FindComma;
 import fill.jma.lesson4.task27.WordCounter;
 import fill.jma.lesson4.task28.LastLetter;
+import fill.jma.lesson4.task31.WordAdditionTime;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -57,14 +58,17 @@ public class Main {
 //      Lesson 4 create class
 
 //      Lesson 5
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+      /*  BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String text = String.valueOf(reader.readLine());
         FindComma findComma = new FindComma();
         FindComma.EnterText(text);
         WordCounter wordCounter = new WordCounter();
         WordCounter.Delete(text);
         LastLetter lastLetter = new LastLetter();
-        LastLetter.WordOfLastLetter(text);
+        LastLetter.WordOfLastLetter(text);*/
+        WordAdditionTime wordAdditionTime = new WordAdditionTime();
+        WordAdditionTime.TheFirst();
+        WordAdditionTime.TheSecond();
 
 
     }
