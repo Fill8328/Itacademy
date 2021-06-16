@@ -1,14 +1,8 @@
 package fill.jma;
 
-import fill.jma.Lesson6.task39.BadMark;
-import fill.jma.lesson4.task26.FindComma;
-import fill.jma.lesson4.task27.WordCounter;
-import fill.jma.lesson4.task28.LastLetter;
-import fill.jma.lesson4.task31.WordAdditionTime;
+import fill.jma.Lesson6.task40.ClearCopy;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Main {
 
@@ -72,8 +66,10 @@ public class Main {
 //        WordAdditionTime.TheSecond();
 
 //      Lesson 6
-        BadMark badMark = new BadMark();
-        BadMark.CreateMarkCollection();
+//        BadMark badMark = new BadMark();
+//        BadMark.CreateMarkCollection();
+        ClearCopy clearCopy = new ClearCopy();
+        ClearCopy.RandomCollection();
 
 
     }
