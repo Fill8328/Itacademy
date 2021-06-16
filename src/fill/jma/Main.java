@@ -1,5 +1,6 @@
 package fill.jma;
 
+import fill.jma.Lesson6.task39.BadMark;
 import fill.jma.lesson4.task26.FindComma;
 import fill.jma.lesson4.task27.WordCounter;
 import fill.jma.lesson4.task28.LastLetter;
@@ -66,9 +67,13 @@ public class Main {
         WordCounter.Delete(text);
         LastLetter lastLetter = new LastLetter();
         LastLetter.WordOfLastLetter(text);*/
-        WordAdditionTime wordAdditionTime = new WordAdditionTime();
-        WordAdditionTime.TheFirst();
-        WordAdditionTime.TheSecond();
+//        WordAdditionTime wordAdditionTime = new WordAdditionTime();
+//        WordAdditionTime.TheFirst();
+//        WordAdditionTime.TheSecond();
+
+//      Lesson 6
+        BadMark badMark = new BadMark();
+        BadMark.CreateMarkCollection();
 
 
     }
