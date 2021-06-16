@@ -1,7 +1,9 @@
 package fill.jma.Lesson6.task40;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 
 public class ClearCopy {
     public static void RandomCollection() {
@@ -12,16 +14,11 @@ public class ClearCopy {
             int num = rnd.nextInt(10) + 1;
             collection.add(i, num);
         }
-        collection.stream().iterator();
-        System.out.println("Collection " + collection);
-        for (Integer element : collection) {
+        System.out.println("ArrayList collection: " + collection);
+        Set set = new HashSet();
+        set.addAll(collection);
 
-            for (Integer element1 : collection) {
-                collection.remove(collection.indexOf(element1));
-            }
-        }
-        System.out.print("\n");
-        System.out.println("Mark of Jone(only good mark): " + collection);
-
+        System.out.println("Set collection: " + set);
     }
 }
+
