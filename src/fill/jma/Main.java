@@ -3,6 +3,7 @@ package fill.jma;
 import fill.jma.Lesson6.task40.ClearCopy;
 
 import java.io.IOException;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
 
@@ -71,6 +72,6 @@ public class Main {
         ClearCopy clearCopy = new ClearCopy();
         ClearCopy.RandomCollection();
 
-
     }
+
 }
