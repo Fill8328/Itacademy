@@ -19,6 +19,9 @@ public class ClearCopy {
         set.addAll(collection);
 
         System.out.println("Set collection: " + set);
+        set.stream().sorted();
+        System.out.println("Set collection: " + set);
+
     }
 }
 
