@@ -10,7 +10,7 @@ public class ClearCopy {
         ArrayList<Integer> collection = new ArrayList<>();
         final int SIZE = 10;
         for (int i = 0; i < 10; i++) {
-            collection.add(ThreadLocalRandom.current().nextInt(1,10));
+            collection.add(ThreadLocalRandom.current().nextInt(1, 10));
         }
         System.out.println("ArrayList collection: " + collection);
         Set set = new HashSet();
