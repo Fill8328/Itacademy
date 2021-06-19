@@ -2,13 +2,11 @@ package fill.jma.Lesson6.task40;
 
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Random;
 import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ClearCopy {
     public static void RandomCollection() {
-        Random rnd = new Random();
         ArrayList<Integer> collection = new ArrayList<>();
         final int SIZE = 10;
         for (int i = 0; i < 10; i++) {

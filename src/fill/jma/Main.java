@@ -1,5 +1,6 @@
 package fill.jma;
 
+import fill.jma.Lesson6.task39.BadMark;
 import fill.jma.Lesson6.task40.ClearCopy;
 
 import java.io.IOException;
@@ -67,10 +68,10 @@ public class Main {
 //        WordAdditionTime.TheSecond();
 
 //      Lesson 6
-//        BadMark badMark = new BadMark();
-//        BadMark.CreateMarkCollection();
-        ClearCopy clearCopy = new ClearCopy();
-        ClearCopy.RandomCollection();
+        BadMark badMark = new BadMark();
+        BadMark.CreateMarkCollection();
+  //      ClearCopy clearCopy = new ClearCopy();
+    //    ClearCopy.RandomCollection();
 
     }
 
