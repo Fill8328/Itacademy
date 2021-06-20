@@ -2,6 +2,8 @@ package fill.jma;
 
 import fill.jma.Lesson6.task39.BadMark;
 import fill.jma.Lesson6.task40.ClearCopy;
+import fill.jma.Lesson6.task41.BestMark;
+import fill.jma.Lesson6.task42.Password;
 
 import java.io.IOException;
 import java.util.concurrent.ThreadLocalRandom;
@@ -68,10 +70,12 @@ public class Main {
 //        WordAdditionTime.TheSecond();
 
 //      Lesson 6
-        BadMark badMark = new BadMark();
-        BadMark.CreateMarkCollection();
-  //      ClearCopy clearCopy = new ClearCopy();
-    //    ClearCopy.RandomCollection();
+//        BadMark badMark = new BadMark();
+//        BadMark.CreateMarkCollection();
+//        ClearCopy clearCopy = new ClearCopy();
+//        ClearCopy.RandomCollection();
+//       BestMark.CreateJournalBestMark();
+        Password.Password();
 
     }
 
