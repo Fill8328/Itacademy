@@ -4,8 +4,11 @@ import fill.jma.Lesson6.task39.BadMark;
 import fill.jma.Lesson6.task40.ClearCopy;
 import fill.jma.Lesson6.task41.BestMark;
 import fill.jma.Lesson6.task42.Password;
+import fill.jma.lesson4.task28.LastLetter;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
@@ -57,14 +60,14 @@ public class Main {
 //      Lesson 4 create class
 
 //      Lesson 5
-      /*  BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String text = String.valueOf(reader.readLine());
-        FindComma findComma = new FindComma();
-        FindComma.EnterText(text);
-        WordCounter wordCounter = new WordCounter();
-        WordCounter.Delete(text);
-        LastLetter lastLetter = new LastLetter();
-        LastLetter.WordOfLastLetter(text);*/
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String text = String.valueOf(reader.readLine());
+//        FindComma findComma = new FindComma();
+//        FindComma.EnterText(text);
+//        WordCounter wordCounter = new WordCounter();
+//        WordCounter.Delete(text);
+//        LastLetter lastLetter = new LastLetter();
+ //       LastLetter.WordOfLastLetter(text);
 //        WordAdditionTime wordAdditionTime = new WordAdditionTime();
 //        WordAdditionTime.TheFirst();
 //        WordAdditionTime.TheSecond();
@@ -75,7 +78,7 @@ public class Main {
 //        ClearCopy clearCopy = new ClearCopy();
 //        ClearCopy.RandomCollection();
 //       BestMark.CreateJournalBestMark();
-        Password.Password();
+ //       Password.Password();
 
     }
 
