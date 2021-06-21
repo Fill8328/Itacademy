@@ -19,6 +19,7 @@ public class Password {
         a = Arrays.asList(word.replaceAll("[,.!?:;]", "").toLowerCase(Locale.ROOT).split(" +"));
         LinkedHashMap<String, Integer> linkedHashMap = new LinkedHashMap<>(a.size());
 
+
         for (int i = 0; i < a.size(); i++) {
                 linkedHashMap.put(a.get(i), linkedHashMap.getOrDefault(a.get(i), 0 ) + 1);
             }
