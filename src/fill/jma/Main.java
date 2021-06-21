@@ -73,8 +73,8 @@ public class Main {
 //        WordAdditionTime.TheSecond();
 
 //      Lesson 6
-//        BadMark badMark = new BadMark();
-//        BadMark.CreateMarkCollection();
+        BadMark badMark = new BadMark();
+        BadMark.CreateMarkCollection();
 //        ClearCopy clearCopy = new ClearCopy();
 //        ClearCopy.RandomCollection();
 //       BestMark.CreateJournalBestMark();
