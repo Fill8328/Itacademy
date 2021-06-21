@@ -77,8 +77,8 @@ public class Main {
 //        BadMark.CreateMarkCollection();
 //        ClearCopy clearCopy = new ClearCopy();
 //        ClearCopy.RandomCollection();
-       BestMark.CreateJournalBestMark();
- //       Password.Password();
+//       BestMark.CreateJournalBestMark();
+        Password.Password();
 
     }
 

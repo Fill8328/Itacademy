@@ -13,23 +13,15 @@ public class Password {
     private static List<String> a;
 
     public static void Password() throws IOException {
-        int length = 0;
         System.out.println("Enter you text");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String word = reader.readLine();
         a = Arrays.asList(word.replaceAll("[,.!?:;]", "").toLowerCase(Locale.ROOT).split(" +"));
-        length = a.size();
-        LinkedHashMap<String, Integer> linkedHashMap = new LinkedHashMap<>(length);
+        LinkedHashMap<String, Integer> linkedHashMap = new LinkedHashMap<>(a.size());
 
-        for (int i = 0; i < length; i++) {
-            int count = 0;
-            for (int j = 0; j < length; j++) {
-                if (a.get(i).equals(a.get(j))) {
-                    count++;
-                }
-                linkedHashMap.put(a.get(i), count);
+        for (int i = 0; i < a.size(); i++) {
+                linkedHashMap.put(a.get(i), linkedHashMap.getOrDefault(a.get(i), 0 ) + 1);
             }
-        }
         System.out.println(linkedHashMap);
     }
 }
