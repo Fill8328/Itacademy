@@ -2,6 +2,7 @@ package fill.jma;
 
 import fill.jma.Lesson7.task46.Catalog;
 import fill.jma.Lesson7.task47.WordAndCommaCounter;
+import fill.jma.Lesson7.task48.NymberFindeSummClear;
 
 import java.io.IOException;
 
@@ -9,15 +10,17 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         //      Lesson 7
-        Catalog catalog = new Catalog();
-     //   Catalog.catalog();
-     //   Catalog.number();
-     //   Catalog.catalogOne();
-       // Catalog.getNameFile();
-        //Catalog.catalogOne();
-        WordAndCommaCounter wordAndCommaCounter = new WordAndCommaCounter();
-        WordAndCommaCounter.commaCounter();
-        WordAndCommaCounter.wordCounter();
+//        Catalog catalog = new Catalog();
+//        Catalog.catalog();
+//        Catalog.number();
+//        Catalog.catalogOne();
+//        Catalog.getNameFile();
+//        Catalog.catalogOne();
+//        WordAndCommaCounter wordAndCommaCounter = new WordAndCommaCounter();
+//        WordAndCommaCounter.commaCounter();
+//        WordAndCommaCounter.wordCounter();
+        NymberFindeSummClear nymberFindeSummClear = new NymberFindeSummClear();
+        NymberFindeSummClear.nymberFindeSummClear();
         //      Lesson 6
         /*
 //        BadMark badMark = new BadMark();
