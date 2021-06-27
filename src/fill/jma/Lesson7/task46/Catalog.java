@@ -1,4 +1,4 @@
-package fill.jma.Lesson7;
+package fill.jma.Lesson7.task46;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;

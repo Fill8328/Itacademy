@@ -1,14 +1,9 @@
 package fill.jma;
 
-import fill.jma.Lesson7.Catalog;
-import fill.jma.Lesson7.WordAndCommaCounter;
-import fill.jma.lesson4.task26.FindComma;
+import fill.jma.Lesson7.task46.Catalog;
+import fill.jma.Lesson7.task47.WordAndCommaCounter;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
 

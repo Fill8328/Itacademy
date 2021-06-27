@@ -1,4 +1,4 @@
-package fill.jma.Lesson7;
+package fill.jma.Lesson7.task47;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
