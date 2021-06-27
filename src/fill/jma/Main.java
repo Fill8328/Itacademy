@@ -1,6 +1,7 @@
 package fill.jma;
 
 import fill.jma.Lesson7.Catalog;
+import fill.jma.Lesson7.WordAndCommaCounter;
 import fill.jma.lesson4.task26.FindComma;
 
 import java.io.BufferedReader;
@@ -14,11 +15,14 @@ public class Main {
     public static void main(String[] args) throws IOException {
         //      Lesson 7
         Catalog catalog = new Catalog();
-        //Catalog.catalog();
+     //   Catalog.catalog();
      //   Catalog.number();
-      //  Catalog.catalogOne();
-        Catalog.getNameFile();
+     //   Catalog.catalogOne();
+       // Catalog.getNameFile();
         //Catalog.catalogOne();
+        WordAndCommaCounter wordAndCommaCounter = new WordAndCommaCounter();
+        WordAndCommaCounter.commaCounter();
+        WordAndCommaCounter.wordCounter();
         //      Lesson 6
         /*
 //        BadMark badMark = new BadMark();
@@ -32,18 +36,18 @@ public class Main {
         //      Lesson 5  create class
 
 //      Lesson 4
-        /*
+
 //        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 //        String text = String.valueOf(reader.readLine());
 //        FindComma findComma = new FindComma();
-//        FindComma.EnterText(text);
+//        FindComma.EnterText("");
 //        WordCounter wordCounter = new WordCounter();
 //        WordCounter.Delete(text);
 //        LastLetter lastLetter = new LastLetter();
  //       LastLetter.WordOfLastLetter(text);
 //        WordAdditionTime wordAdditionTime = new WordAdditionTime();
 //        WordAdditionTime.TheFirst();
-//        WordAdditionTime.TheSecond();*/
+//        WordAdditionTime.TheSecond();
 
         //      Lesson 3 task 18 19 20 22 23
         /* PrintArray.printArray(array);

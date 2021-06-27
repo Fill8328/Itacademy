@@ -8,7 +8,7 @@ public class Catalog {
     }
 
     public static void catalog() throws IOException {
-        FileReader reader = new FileReader("/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/HelloText/How/Please");
+        FileReader reader = new FileReader("/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/texte");
         int res = reader.read();
         while (res != -1) {
             System.out.print((char) res);
@@ -18,9 +18,9 @@ public class Catalog {
 
     public static void catalogOne() {
         try {
-            BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream("/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/HelloText/How/Please"));
+          //  BufferedInputStream bufferedInputStream = new BufferedInputStream(new FileInputStream("/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/HelloText/How/Please"));
           //  BufferedReader bufferedReader = new BufferedReader(new FileReader("/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/HelloText/How/Please"));
-            BufferedReader bufferedReader = new BufferedReader(new FileReader("/Users/user/Desktop/Itacademy/src/fill/jma/lesson4/text"));
+            BufferedReader bufferedReader = new BufferedReader(new FileReader("/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/texte"));
             String result = bufferedReader.readLine();
             while (result != null) {
                 System.out.println(result);
