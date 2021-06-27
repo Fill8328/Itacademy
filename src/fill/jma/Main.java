@@ -1,12 +1,10 @@
 package fill.jma;
 
-import fill.jma.Lesson6.task39.BadMark;
-import fill.jma.Lesson6.task40.ClearCopy;
-import fill.jma.Lesson6.task41.BestMark;
-import fill.jma.Lesson6.task42.Password;
-import fill.jma.lesson4.task28.LastLetter;
+import fill.jma.Lesson7.Catalog;
+import fill.jma.lesson4.task26.FindComma;
 
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.concurrent.ThreadLocalRandom;
@@ -14,6 +12,50 @@ import java.util.concurrent.ThreadLocalRandom;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        //      Lesson 7
+        Catalog catalog = new Catalog();
+        //Catalog.catalog();
+     //   Catalog.number();
+      //  Catalog.catalogOne();
+        Catalog.getNameFile();
+        //Catalog.catalogOne();
+        //      Lesson 6
+        /*
+//        BadMark badMark = new BadMark();
+//        BadMark.CreateMarkCollection();
+//        ClearCopy clearCopy = new ClearCopy();
+//        ClearCopy.RandomCollection();
+//       BestMark.CreateJournalBestMark();
+        Password.Password();
+*/
+
+        //      Lesson 5  create class
+
+//      Lesson 4
+        /*
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//        String text = String.valueOf(reader.readLine());
+//        FindComma findComma = new FindComma();
+//        FindComma.EnterText(text);
+//        WordCounter wordCounter = new WordCounter();
+//        WordCounter.Delete(text);
+//        LastLetter lastLetter = new LastLetter();
+ //       LastLetter.WordOfLastLetter(text);
+//        WordAdditionTime wordAdditionTime = new WordAdditionTime();
+//        WordAdditionTime.TheFirst();
+//        WordAdditionTime.TheSecond();*/
+
+        //      Lesson 3 task 18 19 20 22 23
+        /* PrintArray.printArray(array);
+        PrintArray.lastElementArray(array);
+        PrintArray.evenElementArray(array);
+        PrintArray.maxElementArray(array);
+        PrintArray.rePlaceArray(array);
+        PrintArray.printArrayRevers(array);
+        System.out.println();
+        System.out.println();
+        ArrayButterfly.butterfly();*/
+
 //      Lesson 1-2 task 4-17
         /*
         int[] array = new int[10];
@@ -47,38 +89,6 @@ public class Main {
         numberFormatEasy.FormatEasy();
         PrimeNumber primeNumber = new PrimeNumber();
         primeNumber.primenumber();*/
-//      Lesson 3 task 18 19 20 22 23
-        /* PrintArray.printArray(array);
-        PrintArray.lastElementArray(array);
-        PrintArray.evenElementArray(array);
-        PrintArray.maxElementArray(array);
-        PrintArray.rePlaceArray(array);
-        PrintArray.printArrayRevers(array);
-        System.out.println();
-        System.out.println();
-        ArrayButterfly.butterfly();*/
-//      Lesson 4 create class
-
-//      Lesson 5
-//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-//        String text = String.valueOf(reader.readLine());
-//        FindComma findComma = new FindComma();
-//        FindComma.EnterText(text);
-//        WordCounter wordCounter = new WordCounter();
-//        WordCounter.Delete(text);
-//        LastLetter lastLetter = new LastLetter();
- //       LastLetter.WordOfLastLetter(text);
-//        WordAdditionTime wordAdditionTime = new WordAdditionTime();
-//        WordAdditionTime.TheFirst();
-//        WordAdditionTime.TheSecond();
-
-//      Lesson 6
-//        BadMark badMark = new BadMark();
-//        BadMark.CreateMarkCollection();
-//        ClearCopy clearCopy = new ClearCopy();
-//        ClearCopy.RandomCollection();
-//       BestMark.CreateJournalBestMark();
-        Password.Password();
 
     }
 
