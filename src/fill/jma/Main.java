@@ -12,7 +12,6 @@ public class Main {
         //      Lesson 7
         Catalog catalog = new Catalog();
 //        Catalog.catalog();
-//        Catalog.number();
 //        Catalog.catalogOne();
         Catalog.getNameFile();
         Catalog.totalCommander();

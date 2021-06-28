@@ -34,21 +34,6 @@ public class Catalog {
         }
     }
 
-    public static void number() throws IOException {
-        BufferedWriter a;
-        try {
-            a = new BufferedWriter(new BufferedWriter(new FileWriter("/Users/user/Desktop/Itacademy/src/fill/jma/lesson4/text")));
-            a.write("ABOBA");
-            for (int i = 0; i < 20; i++) {
-                a.write(" " + i);
-            }
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found");
-            return;
-        }
-        a.close();
-    }
-
     public static void getNameFile() throws IOException {
         String add = null;
         File f1 = new File("/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/HelloText");
