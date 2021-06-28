@@ -6,12 +6,13 @@ import fill.jma.Lesson7.task47.WordAndCommaCounter;
 import fill.jma.Lesson7.task48.NymberFindeSummClear;
 
 import java.io.IOException;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
         //      Lesson 7
-        Catalog catalog = new Catalog();
+//        Catalog catalog = new Catalog();
 
 //        Catalog.catalog();
 //        Catalog.catalogOne();
@@ -23,7 +24,14 @@ public class Main {
 //        WordAndCommaCounter.wordCounter();
 //        NymberFindeSummClear nymberFindeSummClear = new NymberFindeSummClear();
 //        NymberFindeSummClear.nymberFindeSummClear();
-        ReversNumbersText.ReversNumbersText();
+
+
+        String path = "/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/NymberList";
+        System.out.println(ReversNumbersText.readIntegersFromFile(path));
+        List<Integer> reversList =  ReversNumbersText.readIntegersFromFile(path);
+        System.out.println(ReversNumbersText.reversList(reversList));
+
+
         //      Lesson 6
         /*
 //        BadMark badMark = new BadMark();
