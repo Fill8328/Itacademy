@@ -10,17 +10,18 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         //      Lesson 7
-//        Catalog catalog = new Catalog();
+        Catalog catalog = new Catalog();
 //        Catalog.catalog();
 //        Catalog.number();
 //        Catalog.catalogOne();
-//        Catalog.getNameFile();
+        Catalog.getNameFile();
+        Catalog.totalCommander();
 //        Catalog.catalogOne();
 //        WordAndCommaCounter wordAndCommaCounter = new WordAndCommaCounter();
 //        WordAndCommaCounter.commaCounter();
 //        WordAndCommaCounter.wordCounter();
-        NymberFindeSummClear nymberFindeSummClear = new NymberFindeSummClear();
-        NymberFindeSummClear.nymberFindeSummClear();
+//        NymberFindeSummClear nymberFindeSummClear = new NymberFindeSummClear();
+//        NymberFindeSummClear.nymberFindeSummClear();
         //      Lesson 6
         /*
 //        BadMark badMark = new BadMark();
