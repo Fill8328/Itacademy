@@ -56,10 +56,13 @@ public class Catalog {
         StringBuilder absolutRoad = new StringBuilder();
         absolutRoad.append(root);
         try {
-            while (numMenu != 0) {
+            while (numMenu != 777) {
                 String[] nameFile = f1.list();
                 ArrayList<String> arrayList = new ArrayList<>();
                 System.out.println("chose file");
+                if (nameFile.equals(null) ){             //как сделать выход если я пришел в конечный файл?
+                    System.out.println("AAAAAA!");
+                }
                 for (int i = 0; i < nameFile.length; i++) {
                     System.out.println(i + ")" + nameFile[i]);
                     arrayList.add(nameFile[i]);
@@ -76,7 +79,7 @@ public class Catalog {
                 f1 = new File(String.valueOf(absolutRoad));
                 System.out.println(f1);
                 BufferedReader menu = new BufferedReader(new InputStreamReader(System.in));
-                System.out.println("if you want to break press 0");
+                System.out.println("if you want to break press 777 else not press other number");
                 numMenu = Integer.parseInt(String.valueOf(reader.readLine()));
             }
         } catch (FileNotFoundException e) {

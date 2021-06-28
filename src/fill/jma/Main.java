@@ -13,7 +13,7 @@ public class Main {
         Catalog catalog = new Catalog();
 //        Catalog.catalog();
 //        Catalog.catalogOne();
-        Catalog.getNameFile();
+//        Catalog.getNameFile();
         Catalog.totalCommander();
 //        Catalog.catalogOne();
 //        WordAndCommaCounter wordAndCommaCounter = new WordAndCommaCounter();
