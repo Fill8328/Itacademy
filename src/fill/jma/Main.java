@@ -1,5 +1,8 @@
 package fill.jma;
 
+import fill.jma.Lesson5.RocketLaunches;
+import fill.jma.Lesson5.SojyzRoketMass;
+import fill.jma.Lesson5.Сosmonaut;
 import fill.jma.Lesson7.ReversNumbersText;
 import fill.jma.Lesson7.task46.Catalog;
 import fill.jma.Lesson7.task47.WordAndCommaCounter;
@@ -7,10 +10,16 @@ import fill.jma.Lesson7.task48.NymberFindeSummClear;
 
 import java.io.IOException;
 import java.util.List;
+public class Main{
 
-public class Main {
+    public static void main(String[] args) {
 
-    public static void main(String[] args) throws IOException {
+
+        RocketLaunches rocketLaunches = new RocketLaunches();
+        System.out.println(rocketLaunches.massRocket());
+
+
+
         //      Lesson 7
 //        Catalog catalog = new Catalog();
 
@@ -25,11 +34,10 @@ public class Main {
 //        NymberFindeSummClear nymberFindeSummClear = new NymberFindeSummClear();
 //        NymberFindeSummClear.nymberFindeSummClear();
 
-
-        String path = "/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/NymberList";
-        System.out.println(ReversNumbersText.readIntegersFromFile(path));
-        List<Integer> reversList =  ReversNumbersText.readIntegersFromFile(path);
-        System.out.println(ReversNumbersText.reversList(reversList));
+//        String path = "/Users/user/Desktop/Itacademy/src/fill/jma/Lesson7/NymberList";
+//        System.out.println(ReversNumbersText.readIntegersFromFile(path));
+//        List<Integer> reversList =  ReversNumbersText.readIntegersFromFile(path);
+//        System.out.println(ReversNumbersText.reversList(reversList));
 
 
         //      Lesson 6
