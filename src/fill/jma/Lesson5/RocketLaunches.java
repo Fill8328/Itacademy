@@ -9,10 +9,8 @@ public class RocketLaunches  {
         return massRocket;
     }
 
-    public Integer massMenOnRocket(Сosmonaut id) {
-
-
-
-    }
+//    public Integer massMenOnRocket(Сosmonaut id) {
+//        this.id =id;
+//    }
 
 }

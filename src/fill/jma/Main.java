@@ -1,26 +1,29 @@
 package fill.jma;
 
-import fill.jma.Lesson5.RocketLaunches;
-import fill.jma.Lesson5.SojyzRoketMass;
-import fill.jma.Lesson5.Сosmonaut;
-import fill.jma.Lesson7.ReversNumbersText;
-import fill.jma.Lesson7.task46.Catalog;
-import fill.jma.Lesson7.task47.WordAndCommaCounter;
-import fill.jma.Lesson7.task48.NymberFindeSummClear;
+
+import fill.jma.Lesson8.task52.ThreadАverage;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.*;
+
 public class Main{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+
+//        RocketLaunches rocketLaunches = new RocketLaunches();
+//        System.out.println(rocketLaunches.massRocket());
+
+        //      Lesson 8
 
 
-        RocketLaunches rocketLaunches = new RocketLaunches();
-        System.out.println(rocketLaunches.massRocket());
+        ThreadАverage.allThread();
 
 
 
         //      Lesson 7
+        /*
 //        Catalog catalog = new Catalog();
 
 //        Catalog.catalog();
@@ -38,7 +41,7 @@ public class Main{
 //        System.out.println(ReversNumbersText.readIntegersFromFile(path));
 //        List<Integer> reversList =  ReversNumbersText.readIntegersFromFile(path);
 //        System.out.println(ReversNumbersText.reversList(reversList));
-
+*/
 
         //      Lesson 6
         /*

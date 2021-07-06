@@ -15,6 +15,7 @@ public enum Сosmonaut {
         this.manMassInKg = manMassInKg;
     }
 
+
     public Integer getId() {
         return id;
     }
