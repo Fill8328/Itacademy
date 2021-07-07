@@ -2,6 +2,7 @@ package fill.jma;
 
 
 import fill.jma.Lesson8.task52.ThreadАverage;
+import fill.jma.Lesson8.task53.ThreadMaxNumArray;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -16,9 +17,8 @@ public class Main{
 //        System.out.println(rocketLaunches.massRocket());
 
         //      Lesson 8
-
-
-        ThreadАverage.allThread();
+        ThreadMaxNumArray.allThread();
+//        ThreadАverage.allThread();
 
 
 
@@ -115,5 +115,7 @@ public class Main{
         primeNumber.primenumber();*/
 
     }
+
+
 
 }
