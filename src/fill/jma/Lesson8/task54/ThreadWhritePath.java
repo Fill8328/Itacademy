@@ -8,14 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class ThreadWhritePath implements Runnable  {
+public class ThreadWhritePath implements Runnable {
     Thread t;
     String name;
 
-    ThreadWhritePath(String threadName){
+    ThreadWhritePath(String threadName) {
         name = threadName;
         t = new Thread(this, name);
-        System.out.println("New thread" + " "+ t);
+        System.out.println("New thread" + " " + t);
         t.start();
     }
 
@@ -26,12 +26,13 @@ public class ThreadWhritePath implements Runnable  {
         Random random = new Random();
         int average = 0;
         for (int j = 0; j < 10; j++) {
-            list.add(j, random.nextInt( 100));
-            average += list.get(j)/10;
+            list.add(j, random.nextInt(100));
+            average += list.get(j) / 10;
         }
         appendInt(list, "/Users/user/Desktop/Itacademy/src/fill/jma/Lesson8/task54/DemoText");
         System.out.println(list + "   average this thread is: " + average);
     }
+
     public static void allThread() throws InterruptedException {
         new ThreadWhritePath("tOne");
         Thread.sleep(1000);
@@ -64,7 +65,4 @@ public class ThreadWhritePath implements Runnable  {
             throw new RuntimeException("Ups, failed to write into file: " + path, e);
         }
     }
-
-
-
 }

@@ -14,20 +14,30 @@ public class Main{
 
     public static void main(String[] args) throws InterruptedException {
 
+
+
+
+
+
+
+
+
+
+
+
 //        RocketLaunches rocketLaunches = new RocketLaunches();
 //        System.out.println(rocketLaunches.massRocket());
 
-        //      Lesson 8
+//              Lesson 8
+        /*
 //        ThreadMaxNumArray.allThread();
 //        ThreadАverage.allThread();
-        ThreadWhritePath.allThread();
+//        ThreadWhritePath.allThread();
+*/
 
-
-
-        //      Lesson 7
+//              Lesson 7
         /*
 //        Catalog catalog = new Catalog();
-
 //        Catalog.catalog();
 //        Catalog.catalogOne();
 //        Catalog.getNameFile();
@@ -45,7 +55,7 @@ public class Main{
 //        System.out.println(ReversNumbersText.reversList(reversList));
 */
 
-        //      Lesson 6
+//              Lesson 6
         /*
 //        BadMark badMark = new BadMark();
 //        BadMark.CreateMarkCollection();
@@ -55,9 +65,8 @@ public class Main{
         Password.Password();
 */
 
-        //      Lesson 5  create class
-
-//      Lesson 4
+//              Lesson 4
+        /*
 
 //        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 //        String text = String.valueOf(reader.readLine());
@@ -70,8 +79,9 @@ public class Main{
 //        WordAdditionTime wordAdditionTime = new WordAdditionTime();
 //        WordAdditionTime.TheFirst();
 //        WordAdditionTime.TheSecond();
+*/
 
-        //      Lesson 3 task 18 19 20 22 23
+//              Lesson 3 task 18 19 20 22 23
         /* PrintArray.printArray(array);
         PrintArray.lastElementArray(array);
         PrintArray.evenElementArray(array);
@@ -82,7 +92,7 @@ public class Main{
         System.out.println();
         ArrayButterfly.butterfly();*/
 
-//      Lesson 1-2 task 4-17
+//              Lesson 1-2 task 4-17
         /*
         int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
@@ -117,7 +127,4 @@ public class Main{
         primeNumber.primenumber();*/
 
     }
-
-
-
 }
