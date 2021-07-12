@@ -1,28 +1,55 @@
 package fill.jma;
 
 
-import fill.jma.Lesson8.task52.ThreadАverage;
-import fill.jma.Lesson8.task53.ThreadMaxNumArray;
-import fill.jma.Lesson8.task54.ThreadWhritePath;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Random;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.*;
+class CarBrand {
+}
 
-public class Main{
+ class Audi extends CarBrand {
+    public Audi(){
+    }
+}
 
-    public static void main(String[] args) throws InterruptedException {
+ class BMW extends CarBrand {
+    public BMW(){
+    }
+}
+
+ class Mersedes extends CarBrand {
+    public Mersedes(){
+    }
+}
 
 
 
+public class Main extends CarBrand {
+
+    public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+
+        Class<? extends CarBrand>[] classes1 = new Class[]{
+                BMW.class,
+                Audi.class,
+                Mersedes.class
+        };
 
 
+        for(int i=0; i<10; i++) {
+            Random r = new Random();
+            int ind = r.nextInt(3);
+            Constructor<? extends CarBrand> constructor = classes1[ind].getConstructor();
+            Object[] arguments = new Object[]{};
+            CarBrand animal = (CarBrand) constructor.newInstance(arguments);
+            System.out.println(animal.getClass().getName());
+        }
 
 
+    }
 
-
-
+//System.out.println(GenerateXYZ.calculatedXYZ());
+//        GenerateArray.printArray();
 
 
 //        RocketLaunches rocketLaunches = new RocketLaunches();
@@ -127,4 +154,4 @@ public class Main{
         primeNumber.primenumber();*/
 
     }
-}
+
