@@ -1,22 +1,44 @@
 package fill.jma;
 
-import fill.jma.TestLessonITA.CarServes.Generator;
-import fill.jma.TestLessonITA.CarServes.Serves;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.util.Arrays;
+import fill.jma.Car.Car;
+import fill.jma.Car.CarGenerator;
+import fill.jma.Car.PowerComparator;
+import fill.jma.Car.YearComparator;
+import fill.jma.Lesson10.tusk57.Consumer;
+import fill.jma.Lesson10.tusk57.Producer;
+
+import java.util.Collection;
+import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) throws InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
+//    private static final CarGenerator carGenerator = new CarGenerator();
+//
+//    private static void showCollection(Collection collection) {
+//        collection.stream().forEach(System.out::println);
+//    }
+    public static double element = 200;
 
-//        System.out.println(Sport.FORD.toString());
-//        System.out.println(Prime.FORD.toString());
-//        System.out.println(Base.FORD.toString());
-       // System.out.println(Serves.getList());
-        System.out.println(Serves.temp);
-        Generator.factory();
+    public static void main(String[] args) throws InterruptedException {
+
+
+
+
+
+
+
+
+//        List<Car> carList = carGenerator.generator();
+//        PowerComparator powerComparator = new PowerComparator();
+//        YearComparator yearComparator = new YearComparator();
+//        carList.sort(powerComparator.thenComparing(yearComparator));
+//        showCollection(carList);
+
+
+
+//        System.out.println(Serves.temp);
+//        Generator.factory();
 
 
 
